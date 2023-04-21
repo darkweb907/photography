@@ -218,6 +218,7 @@ header p {
 }
 
 .input {
+	padding-block: 2rem;
 	padding-inline: 15px;
 	margin-top: 4rem;
 	color: white;
@@ -226,14 +227,41 @@ header p {
 .input h2 {
 	font-weight: 300;
 }
-input {
+.val {
 	background-color: transparent;
 	border: none;
 	border-bottom: 2px solid rgb(136, 136, 44);
 	width: 100%;
 	display: block;
 }
+.sub {
+	cursor: pointer;
+	border: none;
+	background-color: rgb(136, 136, 44);
+	margin-top: 2rem;
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-block: 0.8rem;
+	border-radius: 12px;
+	font-size: 1rem;
+	font-weight: bolder;
+}
 
+/* footer start here */
+
+footer .flex {
+	color: #fff;
+	flex-direction: column;
+}
+footer ul .flex {
+	margin-top: 1rem;
+	gap: 5rem;
+	flex-direction: row !important;
+}
+.corn {
+	gap: 2rem !important;
+}
 /* s */
 .one {
 	grid-row: 1 / span 2;
