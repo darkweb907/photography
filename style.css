@@ -399,7 +399,7 @@ footer ul .flex {
 	.links {
 		display: none;
 	}
-	ul {
+	header ul {
 		display: none !important;
 	}
 	.icon {
