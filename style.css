@@ -137,6 +137,13 @@ header p {
 }
 
 /* section aspect */
+.inputed {
+	background: linear-gradient(
+		141deg,
+		rgba(15, 15, 13, 1) 55%,
+		rgba(136, 136, 44, 1) 177%
+	);
+}
 .portrait {
 	color: white;
 	background: rgb(15, 15, 13);
@@ -208,6 +215,23 @@ header p {
 .port2-gallery .four,
 .port3-gallery .four {
 	grid-row: 2;
+}
+
+.input {
+	padding-inline: 15px;
+	margin-top: 4rem;
+	color: white;
+	line-height: 2rem;
+}
+.input h2 {
+	font-weight: 300;
+}
+input {
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid rgb(136, 136, 44);
+	width: 100%;
+	display: block;
 }
 
 /* s */
