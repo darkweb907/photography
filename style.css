@@ -1,6 +1,9 @@
 /** @format */
 
 /* custom font starts here */
+.mage {
+	opacity: 0;
+}
 .active {
 	display: block !important;
 	animation: move-block 1s ease-in;
@@ -155,15 +158,14 @@ header p {
 	padding-top: 3rem;
 	text-align: center;
 }
-.port:hover {
-	color: rgb(15, 15, 13);
-	color: linear-gradient(
-		277deg,
-		rgba(15, 15, 13, 0) 25%,
-		rgba(136, 136, 44, 1) 98%
-	);
+.pop {
+	border-bottom: 3px solid;
+	border-color: rgba(136, 136, 44, 1);
+	height: 37px;
 }
+
 .links {
+	margin-bottom: 3px;
 	cursor: pointer;
 	color: #fff;
 	font-weight: lighters;
@@ -288,7 +290,7 @@ footer ul .flex {
 }
 /* ggrid end here */
 /* animation added */
-@keyframes move-block {
+/* @keyframes move-block {
 	from {
 		opacity: 0;
 		transform: translateX(-100%);
@@ -297,7 +299,7 @@ footer ul .flex {
 		opacity: 1;
 		transform: translateX(0);
 	}
-}
+} */
 @keyframes rotate {
 	from {
 		transform: rotateZ(0deg);
@@ -368,6 +370,10 @@ footer ul .flex {
 		grid-row: initial;
 		grid-column: initial;
 	}
+	.two {
+		grid-row: initial;
+		grid-column: initial;
+	}
 	.three {
 		grid-row: initial;
 		grid-column: initial;
@@ -397,7 +403,8 @@ footer ul .flex {
 		text-align: center;
 	}
 	.links {
-		display: none;
+		padding-inline: 60px;
+		flex-direction: column;
 	}
 	header ul {
 		display: none !important;
