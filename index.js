@@ -51,8 +51,8 @@ mobile.addEventListener("click", () => {
 	champ.classList.toggle("bump");
 	mobile.classList.toggle("open");
 	if (mobile.classList.contains("open")) {
-		gsap.to(champ, { opacity: 1, duration: 2, y: 22, stagger: 0.5 });
+		gsap.to(champ, { opacity: 1, duration: 2 });
 	} else {
-		gsap.from(champ, { opacity: 0, duration: 2, y: -119, stagger: 0.5 });
+		gsap.to(champ, { opacity: 0, duration: 2 });
 	}
 });

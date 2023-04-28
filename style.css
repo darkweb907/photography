@@ -1,6 +1,9 @@
 /** @format */
 
 /* custom font starts here */
+nav ul.flex {
+	display: flex;
+}
 .mage {
 	opacity: 0;
 }
@@ -429,6 +432,7 @@ footer ul .flex {
 		display: block;
 	}
 	.bump {
+		opacity: 0;
 		display: flex !important;
 		position: absolute;
 		gap: 42px;
@@ -437,7 +441,7 @@ footer ul .flex {
 		width: 98%;
 		left: 50%;
 		right: 50%;
-		transform: translate(-50%, -1199px);
+		transform: translate(-50%, 22px);
 		padding: 36px;
 	}
 }
