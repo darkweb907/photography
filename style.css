@@ -397,6 +397,12 @@ footer ul .flex {
 }
 
 @media (max-width: 519px) {
+	nav ul .flex {
+		gap: 38px;
+		flex-direction: column;
+		transition: transform 0.3s ease-in;
+	}
+
 	.grid {
 		display: block;
 		line-height: 2rem;
@@ -415,10 +421,23 @@ footer ul .flex {
 		padding-inline: 60px;
 		flex-direction: column;
 	}
-	header ul {
-		display: none !important;
+	nav ul.flex {
+		display: none;
 	}
 	.icon {
+		cursor: pointer;
 		display: block;
+	}
+	.bump {
+		display: flex !important;
+		position: absolute;
+		gap: 42px;
+		flex-direction: column;
+		background-color: rgba(136, 136, 44, 1);
+		width: 98%;
+		left: 50%;
+		right: 50%;
+		transform: translate(-50%, -1199px);
+		padding: 36px;
 	}
 }
